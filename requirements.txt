@@ -1,0 +1,66 @@
+# Django Core
+Django>=5.2,<5.3
+djangorestframework>=3.15
+djangorestframework-simplejwt>=5.3
+django-cors-headers>=4.3
+django-environ>=0.11
+django-filter>=24.1
+django-redis>=5.4
+
+# Database
+pymongo>=4.6
+motor>=3.3
+django-mongodb-backend>=4.6
+
+# Async / Realtime
+celery>=5.3
+redis>=5.0
+channels>=4.0
+channels-redis>=4.2
+websockets>=12.0
+
+# Edge Computing
+fastapi>=0.115
+uvicorn>=0.30
+python-multipart>=0.0.9
+
+# AI / ML
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.4
+xgboost>=2.0
+lightgbm>=4.3
+tensorflow-cpu>=2.15.0; python_version < "3.14"
+keras>=3.0; python_version < "3.14"
+prophet>=1.1; python_version < "3.14"
+ultralytics>=8.1
+opencv-python-headless>=4.9
+Pillow>=10.2
+joblib>=1.3
+
+# Payments
+razorpay>=1.4
+
+# Firebase
+firebase-admin>=6.4
+
+# Supabase
+supabase>=2.3
+
+# Maps & Geo
+geopy>=2.4
+googlemaps>=4.10
+
+# Security
+bcrypt>=4.2
+cryptography>=43.0
+
+# Monitoring
+sentry-sdk>=2.13
+
+# Utilities
+requests>=2.31
+python-dotenv>=1.0
+gunicorn>=21.2
+whitenoise>=6.6
+drf-yasg>=1.21
